@@ -99,10 +99,11 @@ img {
 
   h3 {
     font-size: 28px;
+    margin-bottom: 10px;
   }
 
   #lezioni .row img {
-    height: 254px;
+    height: 150px;
   }
 
   #steps .row>.left,
