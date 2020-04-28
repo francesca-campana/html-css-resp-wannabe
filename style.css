@@ -71,9 +71,17 @@ img {
 .clear {
   clear: both;
 }
+/* On screens that are < 420px */
+
 @media screen and (max-width: 419px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .row {
-    width: 419px;
+    width: 100%;
     margin-top: 0;
   }
   #lezioni .row>.left,
@@ -82,7 +90,7 @@ img {
     float: none;
     margin-top: 5px;
     background-color: #66d6e4;
-    padding: 20px 0;
+    padding: 20px 10px;
   }
 
   h1 {
@@ -104,7 +112,7 @@ img {
     width: 100%;
     margin-top: 5px;
     background-color: #B24D5F;
-    padding: 20px 0px;
+    padding: 20px 10px;
   }
 
   #why .row>.first,
@@ -112,7 +120,7 @@ img {
   #why .row>.third {
     width: 100%;
     margin-top: 5px;
-    padding: 20px 0;
+    padding: 20px 10px;
     background-color: #f7ab04;
   }
 
